@@ -23,11 +23,11 @@ const TicketItem: React.FC<{ ticket: Ticket }> = ({ ticket }) => {
   const getCompanyLogoPath = (companyName: string) => {
     switch (companyName) {
       case "Победа":
-        return "/Победа.png";
+        return "./Победа.png";
       case "Red Wings":
-        return "/Red_Wings.png";
+        return "./Red_Wings.png";
       case "S7 Airlines":
-        return "/S7_Airlines.png";
+        return "./S7_Airlines.png";
       default:
         return "";
     }
